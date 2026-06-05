@@ -1,0 +1,37 @@
+{
+  "name": "codex-pr-review",
+  "version": "0.1.0",
+  "description": "AI-powered pull request reviewer using OpenAI Codex — review any git diff from your terminal",
+  "type": "module",
+  "bin": {
+    "codex-pr-review": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "codex",
+    "openai",
+    "code-review",
+    "pull-request",
+    "cli",
+    "git",
+    "ai",
+    "developer-tools"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "openai": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
