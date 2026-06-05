@@ -3,7 +3,7 @@
 > AI-powered pull request reviewer for your terminal — powered by OpenAI Codex
 
 [![npm version](https://img.shields.io/npm/v/codex-pr-review)](https://www.npmjs.com/package/codex-pr-review)
-[![CI](https://github.com/YOUR_USERNAME/codex-pr-review/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/codex-pr-review/actions)
+[![CI](https://github.com/nantokanarusa124-art/codex-pr-review/actions/workflows/ci.yml/badge.svg)](https://github.com/nantokanarusa124-art/codex-pr-review/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 **Stop waiting for reviewers. Get instant, structured feedback on any git diff — before you even open a PR.**
